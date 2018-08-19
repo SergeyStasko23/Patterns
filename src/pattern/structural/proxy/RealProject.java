@@ -2,6 +2,7 @@ package pattern.structural.proxy;
 
 /* RealSubject - реальный субъект.
    Определяет реальный объект, представленный заместителем.
+   Определяет основную функциональность.
 */
 public class RealProject implements Project {
     private String url;
